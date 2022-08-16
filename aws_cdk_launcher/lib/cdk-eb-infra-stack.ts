@@ -51,6 +51,7 @@ export class CdkEbInfraStack extends cdk.Stack {
 
 
     // Example of some options which can be configured
+    // Configuration options for Elastic Beanstalk -- > https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/command-options-general.html#command-options-general-autoscalingasg
     const optionSettingProperties: elasticbeanstalk.CfnEnvironment.OptionSettingProperty[] = [
       {
         namespace: 'aws:autoscaling:launchconfiguration',
